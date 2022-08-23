@@ -23,8 +23,7 @@ public final class GUI {
             return;
         }
 
-        int inventorySize = 9 * Math.round((playerCount -1) / 9);
-
+        int inventorySize = (int)((9*(Math.ceil((float)(playerCount-1)/9))));
         if(inventorySize < 9) inventorySize = 9;
         else if(inventorySize > 54) inventorySize = 54;
 
