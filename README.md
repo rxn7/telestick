@@ -5,7 +5,7 @@ teleport-menu plugin with wich you can teleport to any player (if you have the p
 ![ss2](.github/ss2.png)
 
 # features
-* multi-language support (currently pl and en), the language automatically detected for each client.  
+* multi-language support (currently pl and en), the language automatically is detected for each client.  
 * player heads with skins in the gui.  
 * the gui size is scaled according to the player count.
 
