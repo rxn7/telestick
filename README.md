@@ -13,9 +13,9 @@ teleport-menu plugin with wich you can teleport to any player (if you have the p
 * ```ts``` - open the Telestick menu  
 * ```ts-version``` - shows the current Telestick version  
 
-# to do
-* multi-page gui when playerCount > 54  
-
 # permissions
 * ```telestick``` - permission to use the ```ts``` command
 * ```telestick-version``` - permission to use the ```ts-version```
+
+# to do
+* multi-page gui when playerCount > 54  
