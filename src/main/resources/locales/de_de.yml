@@ -1,0 +1,8 @@
+misc:
+  ts_version: "Telestick-Version:"
+
+gui:
+  teleport_to: "Teleport nach"
+
+errors:
+  no_players_error: "Der Server ist leer, man kann sich zu niemandem teleportieren!"

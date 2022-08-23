@@ -8,13 +8,11 @@ import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.*;
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Map;
 
 public final class LanguageUtil {
-    // TODO: Load from files
     private static Map<String, Map<String, String>> messages = new HashMap<>();
-    private static final String locales[] = { "en_us", "pl_pl", };
+    private static final String locales[] = { "en_us", "pl_pl", "de_de" };
 
     public static String getMessage(String key, String locale) {
         Map<String, String> map = messages.get(locales[0]);
@@ -22,10 +20,8 @@ public final class LanguageUtil {
         if(messages.containsKey(locale.toLowerCase()))
             map = messages.get(locale);
 
-        if(map.containsKey(key)) {
-            if(map.containsKey(key))
-                return map.get(key);
-        }
+        if(map.containsKey(key))
+            return map.get(key);
 
         return "?";
     }
