@@ -9,9 +9,13 @@ teleport-menu plugin with wich you can teleport to any player (if you have the p
 * player heads with skins in the gui.  
 * the gui size is scaled according to the player count.
 
+# commands
+* ```ts``` - open the Telestick menu  
+* ```ts-version``` - shows the current Telestick version  
+
 # to do
 * multi-page gui when playerCount > 54  
 
 # permissions
-* ```telestick``` - permission to use the ```ts``` command which opens the gui. 
-* ```telestick-version``` - permission to use the ```ts-version``` command which prints the telestick version. 
+* ```telestick``` - permission to use the ```ts``` command
+* ```telestick-version``` - permission to use the ```ts-version```
