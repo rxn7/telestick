@@ -1,0 +1,8 @@
+misc:
+  ts_version: "Wersja pluginu Telestick:"
+
+gui:
+  teleport_to: "Teleportuj do"
+
+errors:
+  no_players_error: "Serwer jest pusty, nie możesz się do nikogo teleportować!"
