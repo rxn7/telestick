@@ -21,9 +21,8 @@ public class GUIEventHandler implements Listener {
             String playerName = e.getCurrentItem().getItemMeta().getPersistentDataContainer().get(GUI.GUI_PLAYER_HEAD_NAME_KEY, PersistentDataType.STRING);
             Player targetPlayer = Bukkit.getPlayer(playerName);
 
-            if(targetPlayer != null) {
+            if(targetPlayer != null)
                 e.getWhoClicked().teleport(targetPlayer.getLocation());
-            }
         }
 
         e.setCancelled(true);

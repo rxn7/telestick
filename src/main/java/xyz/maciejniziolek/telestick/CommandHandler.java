@@ -20,14 +20,17 @@ public class CommandHandler implements CommandExecutor {
 
         Player player = (Player)sender;
 
-        switch(label) {
-            case "ts":
+        if(label.equals("ts" )) {
+            if(args.length == 1) {
+                switch(args[0]) {
+                    case "version":
+                        player.sendMessage(ChatColor.YELLOW + "Telestick version: " + ChatColor.GOLD + "" + ChatColor.BOLD + Telestick.getPluginInstance().getDescription().getVersion());
+                        break;
+                }
+            } else {
                 GUI.open(player);
-                return true;
-
-            case "ts-version":
-                player.sendMessage(ChatColor.YELLOW + LanguageUtil.getMessage("ts_version", player.getLocale()) + " " + Telestick.getPluginInstance().getDescription().getVersion());
-                return true;
+            }
+            return true;
         }
 
         return false;

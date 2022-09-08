@@ -3,12 +3,8 @@ version: '${project.version}'
 main: xyz.maciejniziolek.telestick.Telestick
 api-version: 1.19
 authors: [ rxtthin ]
-description: Stick that can teleport you to any player
+description: Teleport util
 website: maciejniziolek.xyz
 commands:
   ts:
-    description: "Opens the telestick menu"
     permission: "telestick"
-  ts-version:
-    description: "Get the current Telestick plugin version"
-    permission: "telestick-version"
