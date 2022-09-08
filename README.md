@@ -1,5 +1,5 @@
 # telestick
-teleport-menu plugin with wich you can teleport to any player (if you have the permissions, of course).  
+teleport-util plugin with wich you can teleport to any player (if you have the permissions, of course).  
 
 ![ss1](.github/ss1.png)
 ![ss2](.github/ss2.png)
