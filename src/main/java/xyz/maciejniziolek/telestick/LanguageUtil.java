@@ -17,7 +17,8 @@ public final class LanguageUtil {
     public static String getMessage(String key, String locale) {
         Map<String, String> map = messages.get(locales[0]);
 
-        if(messages.containsKey(locale.toLowerCase()))
+        locale = locale.toLowerCase();
+        if(messages.containsKey(locale))
             map = messages.get(locale);
 
         if(map.containsKey(key))
